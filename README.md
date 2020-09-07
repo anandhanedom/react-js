@@ -28,3 +28,13 @@
 1. src: All the react code we write (the workspace).
 2. public: Code which browser understands. \*
 3. build: Code which browser understands(optimised).Used for deploying applications.
+
+### Array methods you might wanna use
+1. includes()
+2. map()
+3. filter()
+4. reduce()
+5. find()
+
+### React life-cycle methods
+1. componentDidMount() - it runs after the component output has been rendered to the DOM. This is a good place to set up a timer.
