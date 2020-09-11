@@ -40,6 +40,13 @@
 
 ![react](/img/render.png)
 
+### setState
+
+-this.setState({apples:1}) - this one's okay (the current state is not used for updating state).
+-this.setState({apples:this.state.apples + 1}) - **is not the right way of updating state**.
+-Instead **use this**
+` this.setState((prevState,prevProps)=>{ return {apples:prevState.apples + 1} })`
+
 ### React life-cycle methods
 
 1. componentDidMount() - is invoked immediately after a component is mounted (inserted into the tree). Initialization that requires DOM nodes should go here. If you need to load data from a remote endpoint, this is a good place to instantiate the network request. Good for setting timers too.
