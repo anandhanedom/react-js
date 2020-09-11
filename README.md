@@ -42,4 +42,4 @@
 
 ### React life-cycle methods
 
-1. componentDidMount() - it runs after the component output has been rendered to the DOM. This is a good place to set up a timer.
+1. componentDidMount() - is invoked immediately after a component is mounted (inserted into the tree). Initialization that requires DOM nodes should go here. If you need to load data from a remote endpoint, this is a good place to instantiate the network request. Good for setting timers too.
