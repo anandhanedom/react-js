@@ -42,9 +42,9 @@
 
 ### setState
 
--this.setState({apples:1}) - this one's okay (the current state is not used for updating state).
--this.setState({apples:this.state.apples + 1}) - **is not the right way of updating state**.
--Instead **use this**
+* this.setState({apples:1}) - this one's okay (since the current state is not used to update state).
+* this.setState({apples:this.state.apples + 1}) - **is not the right way of updating state**.
+* Instead **use this**
 ` this.setState((prevState,prevProps)=>{ return {apples:prevState.apples + 1} })`
 
 ### React life-cycle methods
