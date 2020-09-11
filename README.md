@@ -49,4 +49,13 @@
 
 ### React life-cycle methods
 
+![lifecycle](/img/life1)
+![lifecycle](/img/life2)
+
 1. componentDidMount() - is invoked immediately after a component is mounted (inserted into the tree). Initialization that requires DOM nodes should go here. If you need to load data from a remote endpoint, this is a good place to instantiate the network request. Good for setting timers too.
+
+2. componentDidUpdate()
+
+3. componentWillUnmount()
+
+4. shouldComponentUpdate(nextProps,nextState)
