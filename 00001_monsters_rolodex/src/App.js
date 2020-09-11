@@ -4,8 +4,8 @@ import { SearchBox } from './components/search-box/search-box.component.jsx';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       monsters: [],
@@ -31,7 +31,7 @@ class App extends Component {
 
     return (
       <div className="App">
-      <h1>Monsters Rolodex</h1>
+        <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
           handleChange={this.handleChange}
