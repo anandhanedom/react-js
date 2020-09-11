@@ -38,7 +38,7 @@
 
 ### How React renders
 
-![alt text](https://github.com/sreekumaredom/react-js/img/render.png?raw=true)
+![react](/img/render.png)
 
 ### React life-cycle methods
 
