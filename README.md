@@ -40,12 +40,12 @@
 
 ![react](/img/render.png)
 
-### setState
+### Calling setState()
 
-* this.setState({apples:1}) - this one's okay (since the current state is not used to update state).
-* this.setState({apples:this.state.apples + 1}) - **is not the right way of updating state**.
-* Instead **use this**
-` this.setState((prevState,prevProps)=>{ return {apples:prevState.apples + 1} })`
+- this.setState({apples:1}) - this one's okay (since the current state is not used to update state).
+- this.setState({apples:this.state.apples + 1}) - **is not the right way of updating state**.
+- Instead **use this:**
+  ` this.setState((prevState,prevProps)=>{ return {apples:prevState.apples + 1} })`
 
 ### React life-cycle methods
 
@@ -54,8 +54,18 @@
 
 1. componentDidMount() - is invoked immediately after a component is mounted (inserted into the tree). Initialization that requires DOM nodes should go here. If you need to load data from a remote endpoint, this is a good place to instantiate the network request. Good for setting timers too.
 
-2. componentDidUpdate()
+2. componentDidUpdate() - similar to above. But invoked immediately after updating.
 
-3. componentWillUnmount()
+3. componentWillUnmount() - componentWillUnmount() is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions that were created in componentDidMount().
 
-4. shouldComponentUpdate(nextProps,nextState)
+4. shouldComponentUpdate(nextProps,nextState) - selectively hijack and avoid re-render.
+
+5. forceUpdate() - should be avoided since its bad practice.
+
+### React Router & Routing
+
+1. Use 'react-router-dom' package.
+2. <BrowserRouter>
+    <App/>
+   <BrowserRouter/>
+3.
