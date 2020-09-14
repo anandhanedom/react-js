@@ -64,8 +64,4 @@
 
 ### React Router & Routing
 
-1. Use 'react-router-dom' package.
-2. <BrowserRouter>
-    <App/>
-   <BrowserRouter/>
-3.
+Visit : **https://devhints.io/react-router**
