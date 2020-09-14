@@ -61,3 +61,11 @@
 4. shouldComponentUpdate(nextProps,nextState) - selectively hijack and avoid re-render.
 
 5. forceUpdate() - should be avoided since its bad practice.
+
+### React Router & Routing
+
+1. Use 'react-router-dom' package.
+2. <BrowserRouter>
+    <App/>
+   <BrowserRouter/>
+3.
