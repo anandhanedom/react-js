@@ -66,7 +66,9 @@
 
 Visit : **https://reactrouter.com/web/api/match**
 
-- **match**:
+- **Use withRouter()**
+
+* **match**:
   A match object contains information about how a <Route path> matched the URL. match objects contain the following properties:
 
 1. params - (object) Key/value pairs parsed from the URL corresponding to the dynamic segments of the path. Eg. /topics/:topicId - Here, params: {topicId: "13"}
@@ -85,4 +87,4 @@ Visit : **https://reactrouter.com/web/api/match**
 
 - **location**:
 
-1. 1.pathname : full path name where we are currently
+1. pathname : full path name where we are currently
