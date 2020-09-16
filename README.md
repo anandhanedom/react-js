@@ -64,8 +64,27 @@
 
 ### React Router & Routing
 
-1. Use 'react-router-dom' package.
-2. <BrowserRouter>
-    <App/>
-   <BrowserRouter/>
-3.
+Visit : **https://reactrouter.com/web/api/match**
+
+- **Use withRouter()**
+
+* **match**:
+  A match object contains information about how a <Route path> matched the URL. match objects contain the following properties:
+
+1. params - (object) Key/value pairs parsed from the URL corresponding to the dynamic segments of the path. Eg. /topics/:topicId - Here, params: {topicId: "13"}
+2. isExact - (boolean) true if the entire URL was matched (no trailing characters)
+3. path - (string) The path pattern used to match. Useful for building nested <Route>s
+4. url - (string) The matched portion of the URL. Useful for building nested <Link>s
+
+- **history**:
+
+1. push(path, [state]) - (function) Pushes a new entry onto the history stack
+2. location - (object) The current location. May have the following properties:
+   1. pathname - (string) The path of the URL.
+   2. search - (string) The URL query string
+   3. hash - (string) The URL hash fragment
+   4. state - (object) location-specific state that was provided to e.g. push(path, state) when this location was pushed onto the stack. Only available in browser and memory history.
+
+- **location**:
+
+1. pathname : full path name where we are currently
