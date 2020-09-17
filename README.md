@@ -88,3 +88,7 @@ Visit : **https://reactrouter.com/web/api/match**
 - **location**:
 
 1. pathname : full path name where we are currently
+
+### Importing SVGs
+
+- import { ReactComponent as Logo } from '../../assets/crown.svg';
