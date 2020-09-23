@@ -103,8 +103,8 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ### With vs without Redux
 
-![react](/img/withredux.png)
-![react](/img/withoutredux.png)
+![withredux](/img/withredux)
+![withoutredux](/img/withoutredux)
 
 ### Importing SVGs
 
