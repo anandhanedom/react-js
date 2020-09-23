@@ -101,6 +101,11 @@ Visit : **https://reactrouter.com/web/api/match**
 7. docRef - docSnapShot
 8. collectionRef - querySnapShot
 
+### With vs without Redux
+
+![react](/img/withredux.png)
+![react](/img/withoutredux.png)
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
