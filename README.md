@@ -89,6 +89,18 @@ Visit : **https://reactrouter.com/web/api/match**
 
 1. pathname : full path name where we are currently
 
+### Firebase
+
+1. Query asks for a document or collection. [.doc(), .collection()]
+2. We get back a refObj
+3. queryRef provides details and querySnapshots. It represents the current place in the db that we are querying.  
+   Doesn't have the actual data. It has properties that tell us details about the data or method to get snapShot obj(which will give data).
+4. docRef obj to perform CRUD operations. [.set(),.get(),.update(),.delete()]
+5. collectionRef obj to add couemtns [.add()]
+6. snapObj from refObj
+7. docRef - docSnapShot
+8. collectionRef - querySnapShot
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
