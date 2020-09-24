@@ -115,6 +115,14 @@ Visit : **https://reactrouter.com/web/api/match**
 ![withredux](/img/withredux)
 ![withoutredux](/img/withoutredux)
 
+### Redux flow
+
+![reduxflow](/img/reduxflow.png)
+
+### Sample reducer
+
+![sampleReducer](/img/sampleReducer.png)
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
