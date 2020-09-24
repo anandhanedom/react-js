@@ -101,10 +101,27 @@ Visit : **https://reactrouter.com/web/api/match**
 7. docRef - docSnapShot
 8. collectionRef - querySnapShot
 
+### Why Redux
+
+1. Good for managing large state.
+2. Useful for sharing data between components.
+3. Predictable state management using 3 principles:
+   1. Single source of truth: one single big object for the entire state of the app.
+   2. State is read only.
+   3. Changes using pure functions.
+
 ### With vs without Redux
 
 ![withredux](/img/withredux)
 ![withoutredux](/img/withoutredux)
+
+### Redux flow
+
+![reduxflow](/img/reduxflow.png)
+
+### Sample reducer
+
+![sampleReducer](/img/sampleReducer.png)
 
 ### Importing SVGs
 
