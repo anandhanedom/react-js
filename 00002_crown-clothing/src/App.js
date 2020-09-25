@@ -61,11 +61,12 @@ class App extends Component {
     );
   }
 }
-
+//kindof this.setState() to be received as props
 const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => dispatch(setCurrentUser(user)),
 });
 
+//for receiving props
 const mapStateToProps = ({ user }) => ({
   currentUser: user.currentUser,
 });
