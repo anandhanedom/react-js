@@ -123,6 +123,10 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ![sampleReducer](/img/sampleReducer.png)
 
+### connect() - mapDispatchToProps & mapStateToProps
+
+- https://react-redux.js.org/api/connect
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
