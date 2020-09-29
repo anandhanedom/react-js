@@ -127,6 +127,12 @@ Visit : **https://reactrouter.com/web/api/match**
 
 - https://react-redux.js.org/api/connect
 
+### Caching (memoization)
+
+- Using reselect library (selectorsss)
+
+* 2 types of selectors: input(createSelector) and output selectors.
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
