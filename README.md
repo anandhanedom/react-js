@@ -133,7 +133,7 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ### Reducer
 
-![cartReducer](/img/actions.png)
+![cartReducer](/img/reducer.png)
 
 ### Select
 
