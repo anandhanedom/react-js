@@ -135,6 +135,10 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ![cartReducer](/img/actions.png)
 
+### Select
+
+![cartSelectors](/img/selectors.png)
+
 ### connect() - mapDispatchToProps & mapStateToProps
 
 - https://react-redux.js.org/api/connect
