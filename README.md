@@ -118,6 +118,7 @@ Visit : **https://reactrouter.com/web/api/match**
 ### Redux flow
 
 ![reduxflow](/img/reduxflow.png)
+![reduxflowchart](/img/reduxflowchart.png)
 
 ### Types
 
