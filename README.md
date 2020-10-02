@@ -123,6 +123,18 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ![sampleReducer](/img/sampleReducer.png)
 
+### Types
+
+![cartTypes](/img/types.png)
+
+### Actions
+
+![cartActions](/img/actions.png)
+
+### Reducer
+
+![cartReducer](/img/actions.png)
+
 ### connect() - mapDispatchToProps & mapStateToProps
 
 - https://react-redux.js.org/api/connect
@@ -132,6 +144,10 @@ Visit : **https://reactrouter.com/web/api/match**
 - Using reselect library (selectorsss)
 
 * 2 types of selectors: input(createSelector) and output selectors.
+
+### Redux Persist (local storage)
+
+- https://www.npmjs.com/package/redux-persist
 
 ### Importing SVGs
 
