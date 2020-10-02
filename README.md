@@ -118,10 +118,7 @@ Visit : **https://reactrouter.com/web/api/match**
 ### Redux flow
 
 ![reduxflow](/img/reduxflow.png)
-
-### Sample reducer
-
-![sampleReducer](/img/sampleReducer.png)
+![reduxflowchart](/img/reduxflowchart.png)
 
 ### Types
 
@@ -135,19 +132,21 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ![cartReducer](/img/reducer.png)
 
-### Select
-
-![cartSelectors](/img/selectors.png)
-
 ### connect() - mapDispatchToProps & mapStateToProps
 
 - https://react-redux.js.org/api/connect
+
+![mapping](/img/mapping.png)
 
 ### Caching (memoization)
 
 - Using reselect library (selectorsss)
 
 * 2 types of selectors: input(createSelector) and output selectors.
+
+### Selectors
+
+![cartSelectors](/img/selectors.png)
 
 ### Redux Persist (local storage)
 
