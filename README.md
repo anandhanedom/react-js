@@ -152,6 +152,12 @@ Visit : **https://reactrouter.com/web/api/match**
 
 - https://www.npmjs.com/package/redux-persist
 
+### CSS in JS
+
+- Using styled-components
+
+![cartSelectors](/img/cssjs.png)
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
