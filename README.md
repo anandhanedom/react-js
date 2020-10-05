@@ -161,3 +161,8 @@ Visit : **https://reactrouter.com/web/api/match**
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
+
+### Firebase
+
+![firebase](/img/firebase1.png)
+![queryRef](/img/queryRef.png)
