@@ -160,7 +160,7 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ### HOC example
 
-![hoc](/img/hoc.png)
+![hoc](/img/hoc1.png)
 
 ### Importing SVGs
 
