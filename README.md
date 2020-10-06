@@ -158,6 +158,10 @@ Visit : **https://reactrouter.com/web/api/match**
 
 ![cartSelectors](/img/cssjs.png)
 
+### HOC example
+
+![hoc](/img/hoc.png)
+
 ### Importing SVGs
 
 - import { ReactComponent as Logo } from '../../assets/crown.svg';
